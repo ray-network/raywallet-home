@@ -32,7 +32,7 @@ const Help = () => {
           <Collapse.Panel
             header={
               <div>
-                Is Ray Wallet is compatible with HD wallets (Yoroi / Daedalus){" "}
+                Is RayWallet compatible with HD wallets (Yoroi / Daedalus){" "}
                 <i className="ri ri-chevron_down font-size-14 ms-1" />
               </div>
             }

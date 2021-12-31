@@ -35,7 +35,9 @@ const MegaMenu = () => {
                 rel="noopener noreferrer"
               >
                 <i className="ri ri-wallet me-2" />
-                <span>Open RayWallet</span>
+                <span>
+                  <span className="d-none d-sm-inline">Open</span> Wallet
+                </span>
               </a>
               <span
                 className={style.switchIcon}
