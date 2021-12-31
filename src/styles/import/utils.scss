@@ -193,9 +193,13 @@
   }
 
   &__block {
-    max-width: rem(1580);
+    max-width: rem(1670);
     margin: 0 auto rem(90);
-    padding: 0 rem(25);
+    padding: 0 rem(70);
+
+    @media (max-width: $xl-max-width) {
+      padding: 0 rem(25);
+    }
 
     @media (max-width: $sm-max-width) {
       padding: 0 rem(15);
