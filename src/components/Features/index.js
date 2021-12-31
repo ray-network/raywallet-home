@@ -13,7 +13,7 @@ const items = [
     title: "DeFi & DApps",
     descr:
       "Integrated DeFi features and native DApps apps in one place. Convenient and easy to use for all levels of users.",
-    icon: "ri ri-chip",
+    icon: "ri ri-code",
   },
   {
     title: "DApp Connector",
@@ -30,7 +30,7 @@ const items = [
   {
     title: "Multi-Account Support",
     descr:
-      "Use the ability to generate accounts from a single private key (phrase here), for convenient separation of funds for different uses.",
+      "Use the ability to generate accounts from a single private key (seed phrase), for convenient separation of funds for different uses.",
     icon: "ri ri-group",
   },
   {
@@ -43,7 +43,7 @@ const items = [
     title: "Mobile & Desktop Apps",
     descr:
       "Use any convenient format to access the decentralized world of Cardano - mobile or desktop applications are waiting for your attention.",
-    icon: "ri ri-group",
+    icon: "ri ri-crop",
   },
   {
     title: "Fast & Secure",

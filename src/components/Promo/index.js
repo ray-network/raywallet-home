@@ -24,7 +24,7 @@ const Promo = () => {
         <div className={style.info}>
           <div>
             Ray Network is an advanced DeFi ecosystem for Cardano blockchain
-            platform. Built with Cardano & Fully Open Sourced.{" "}
+            platform. Fully Open Sourced. Built on Cardano.{" "}
           </div>
           <div className="ms-4">
             <a
