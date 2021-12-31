@@ -1,0 +1,18 @@
+@import "src/styles/mixins.scss";
+
+.container {
+  margin-top: rem(-5);
+}
+
+.image {
+  border: 1px solid $border;
+  border-radius: rem(8);
+  max-width: 100%;
+}
+
+// dark theme
+[data-theme="dark"] {
+  .image {
+    border-color: $dark-border;
+  }
+}

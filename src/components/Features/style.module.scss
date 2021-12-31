@@ -1,0 +1,54 @@
+@import "@/styles/mixins";
+
+.slider {
+  position: relative;
+  z-index: 1;
+  margin: 0 auto;
+}
+
+.item {
+  display: block;
+  width: rem(370);
+  height: rem(350);
+  padding: rem(15) rem(35);
+  color: $dark;
+  font-size: rem(16);
+  position: relative;
+
+  &:before {
+    display: block;
+    content: "";
+    width: rem(7);
+    height: 100%;
+    background: $success;
+    border-radius: 20px;
+    left: 0;
+    top: 0;
+    position: absolute;
+    z-index: 2;
+  }
+
+  &Outer {
+    width: rem(390);
+    padding-right: rem(20);
+  }
+
+  &Title {
+    font-size: rem(32);
+    font-weight: 700;
+    margin-bottom: rem(20);
+    line-height: 1;
+  }
+
+  &Descr {
+    color: $gray-5;
+  }
+
+  &Icon {
+    position: absolute;
+    bottom: 0;
+    left: rem(35);
+    font-size: rem(84);
+    color: $gray-1;
+  }
+}

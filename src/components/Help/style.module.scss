@@ -1,0 +1,37 @@
+@import "@/styles/mixins";
+
+.help {
+  :global(.ant-collapse) {
+    border-radius: rem(14);
+    border: 1px solid $border;
+    background: transparent;
+  }
+
+  :global(.ant-collapse-item) {
+    text-align: center;
+  }
+
+  :global(.ant-collapse-header) {
+    display: block !important;
+    text-align: center !important;
+    font-size: rem(18);
+    font-weight: 700;
+
+    &:hover {
+      color: $blue;
+    }
+  }
+
+  :global(.ant-collapse-content) {
+    background: transparent;
+  }
+
+  :global(.ant-collapse-item:last-child) {
+    border-bottom: none;
+  }
+
+  p {
+    max-width: rem(800);
+    margin: 0 auto rem(10);
+  }
+}
