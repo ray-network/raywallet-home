@@ -57,7 +57,7 @@ const InstallModal = () => {
       )}
       {modalInstall === "iOS" && (
         <div>
-          <p>In Safari, visit the app page and click the Share icon:</p>
+          <p>In Safari Browser, visit the app page and click the Share icon:</p>
           <p className="text-center">
             <img src={ImagePWAiOS1} className={style.image} alt="" />
           </p>
@@ -80,7 +80,7 @@ const InstallModal = () => {
       {modalInstall === "Android" && (
         <div>
           <p>
-            In Chrome, visit the app page and click settings icon on the right
+            In Chrome Browser, visit the app page and click settings icon on the right
             side of the address bar:
           </p>
           <p className="text-center">
