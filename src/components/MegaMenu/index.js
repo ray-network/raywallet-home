@@ -181,6 +181,11 @@ const MegaMenu = () => {
                               @CardanoList
                             </a>
                           </li>
+                          <li>
+                            <a href="https://twitter.com/PigzMetaverse">
+                              @PigzMetaverse
+                            </a>
+                          </li>
                         </ul>
                       </div>
                       <div className="col-6 col-sm-12">
