@@ -3,8 +3,8 @@ import React from "react"
 import { SVGGithub } from "@/svg"
 import * as style from "./style.module.scss"
 
-import Image1 from './img1.png'
-import Image2 from './img2.png'
+import Image1 from './img1.jpg'
+import Image2 from './img2.jpg'
 
 const Promo = () => {
   return (

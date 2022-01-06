@@ -31,7 +31,6 @@ const InstallModal = () => {
       onCancel={handleCancel}
       width={420}
       closeIcon={<span className="ri ri-close" />}
-      destroyOnClose
       centered
     >
       {(modalInstall === "desktop") && (
