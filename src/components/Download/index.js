@@ -39,7 +39,7 @@ const Download = () => {
         </div>
         <div className={style.card}>
           <div className={style.cardName}>macOS / Windows / Linux</div>
-          <p>RayWallet app for macOS Cardano users</p>
+          <p>RayWallet desktop application for use on PCs and Macs</p>
           <span
             className="cursor-pointer ray__btn ray__btn--round ray__btn--transparent mt-auto"
             onClick={() => handleModal("desktop")}
