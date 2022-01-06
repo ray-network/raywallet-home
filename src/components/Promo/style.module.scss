@@ -6,7 +6,7 @@
 }
 
 .promo {
-  background: $dark-gray-5;
+  background: linear-gradient($dark-gray-5, $dark-gray-4);
   background-size: cover;
   margin-bottom: rem(20);
   padding: rem(20);
@@ -46,7 +46,7 @@
     img {
       position: absolute;
       left: 50%;
-      box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.3);
+      box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);
       border: 8px solid $dark;
       border-radius: rem(20);
       background: $dark;
