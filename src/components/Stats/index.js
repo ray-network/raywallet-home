@@ -22,7 +22,7 @@ const Stats = () => {
           <div className="row">
             <div className="col-sm-4">
               <div className={style.item}>
-                <div className={style.itemLabel}>ADA Staked (in USD)</div>
+                <div className={style.itemLabel}>RayStake TVL</div>
                 <div className={style.itemCount}>
                   ${format(totalLiveStake / 1e6 / 1e6, 1)}m
                 </div>
