@@ -26,7 +26,7 @@ const Download = () => {
       <div className={style.cards}>
         <div className={style.card}>
           <div className={style.cardName}>Web App</div>
-          <p>Use the app in any modern browser. Fast and reliable.</p>
+          <p>Use the app in any modern browser. Fast and reliable</p>
           <a
             href="https://app.raywallet.io"
             className="ray__btn ray__btn--round ray__btn--transparent mt-auto"
@@ -38,26 +38,12 @@ const Download = () => {
           </a>
         </div>
         <div className={style.card}>
-          <div className={style.cardName}>macOS</div>
-          <p>RayWallet app for macOS Cardano users.</p>
+          <div className={style.cardName}>macOS / Windows / Linux</div>
+          <p>RayWallet app for macOS Cardano users</p>
           <span
             className="cursor-pointer ray__btn ray__btn--round ray__btn--transparent mt-auto"
-            onClick={() => handleModal("macOS")}
-            onKeyPress={() => handleModal("macOS")}
-            role="button"
-            tabIndex="0"
-          >
-            <i className="ri ri-add_circled me-2" />
-            Install
-          </span>
-        </div>
-        <div className={style.card}>
-          <div className={style.cardName}>Windows</div>
-          <p>Desktop Cardano wallet for Windows users.</p>
-          <span
-            className="cursor-pointer ray__btn ray__btn--round ray__btn--transparent mt-auto"
-            onClick={() => handleModal("Windows")}
-            onKeyPress={() => handleModal("Windows")}
+            onClick={() => handleModal("desktop")}
+            onKeyPress={() => handleModal("desktop")}
             role="button"
             tabIndex="0"
           >
@@ -67,7 +53,7 @@ const Download = () => {
         </div>
         <div className={style.card}>
           <div className={style.cardName}>iOS</div>
-          <p>Cardano mobile application for iOS users.</p>
+          <p>Cardano mobile application for iOS users</p>
           <span
             className="cursor-pointer ray__btn ray__btn--round ray__btn--transparent mt-auto"
             onClick={() => handleModal("iOS")}
@@ -81,7 +67,7 @@ const Download = () => {
         </div>
         <div className={style.card}>
           <div className={style.cardName}>Android</div>
-          <p>Cardano mobile application for Android users.</p>
+          <p>Cardano mobile application for Android users</p>
           <span
             className="cursor-pointer ray__btn ray__btn--round ray__btn--transparent mt-auto"
             onClick={() => handleModal("Android")}

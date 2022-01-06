@@ -6,7 +6,7 @@ import Menu from "@/components/Menu"
 import MegaMenu from "@/components/MegaMenu"
 import Footer from "@/components/Footer"
 import Cookies from "@/components/Cookies"
-import InstallModal from "@/components/InstallModal"
+import InstallModal from "@/components/Modals/InstallModal"
 import * as style from "./style.module.scss"
 
 const MainLayout = ({ children }) => {

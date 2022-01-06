@@ -17,14 +17,63 @@
   align-items: center;
   justify-content: center;
   position: relative;
+  overflow: hidden;
 
-  h1 {
-    font-weight: 900;
+  &Inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: rem(340);
+
+    h1 {
+      font-weight: 900;
+    }
+  
+    p {
+      max-width: rem(550);
+      text-align: center;
+    }
   }
 
-  p {
-    max-width: rem(550);
+  &Images {
+    width: 100%;
+    position: absolute;
+    bottom: rem(350);
     text-align: center;
+    
+    img {
+      position: absolute;
+      left: 50%;
+      box-shadow: $shadow-ant;
+      border: 8px solid $white;
+      border-radius: rem(20);
+
+      &:nth-child(1) {
+        z-index: 2;
+        margin-left: rem(-495);
+        margin-top: rem(35);
+        width: rem(1000);
+      }
+
+      &:nth-child(2) {
+        z-index: 3;
+        margin-left: rem(100);
+        margin-top: rem(-50);
+        width: rem(300);
+      }
+
+      @media (max-width: $sm-max-width) {
+        &:first-child {
+          margin-left: rem(-400);
+          width: rem(800);
+        }
+  
+        &:last-child {
+          margin-left: 0;
+          width: rem(300);
+        }
+      }
+    }
   }
 
   &Badge {

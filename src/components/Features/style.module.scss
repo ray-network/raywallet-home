@@ -6,6 +6,37 @@
   margin: 0 auto;
 }
 
+.controls {
+  float: right;
+
+  button {
+    border: 1px solid $border;
+    background: none;
+    border-radius: 100px;
+    width: rem(40);
+    height: rem(40);
+    display: inline-flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    font-size: rem(16);
+
+    &:hover {
+      border-color: $blue;
+      color: $blue;
+    }
+
+    &:first-child {
+      margin-right: rem(5);
+      padding-right: rem(9);
+    }
+
+    &:last-child {
+      padding-left: rem(9);
+    }
+  }
+}
+
 .item {
   display: block;
   width: rem(370);

@@ -3,23 +3,32 @@ import React from "react"
 import { SVGGithub } from "@/svg"
 import * as style from "./style.module.scss"
 
+import Image1 from './img1.png'
+import Image2 from './img2.png'
+
 const Promo = () => {
   return (
     <div className={style.container}>
       <div className="ray__block mb-0" id="watch">
         <div className={style.promo}>
-          <h1>
-            RayWallet <span className={style.promoBadge}>v2</span>
-          </h1>
-          <p>
-            The most functional, lightweight, open-source non-custodial Cardano
-            wallet with unique DeFi features and built-in native DApps
-          </p>
-          <Button className="ray__btn ray__btn--transparent ray__btn--round">
-            <i className="ri ri-play_circled me-2" />
-            <span>Watch Video</span>
-            <span className={style.promoSoon}>SOON</span>
-          </Button>
+          <div className={style.promoInner}>
+            <h1>
+              RayWallet <span className={style.promoBadge}>v2</span>
+            </h1>
+            <p>
+              The most functional, lightweight, open-source non-custodial Cardano
+              wallet with unique DeFi features and built-in native DApps
+            </p>
+            <Button className="ray__btn ray__btn--transparent ray__btn--round">
+              <i className="ri ri-play_circled me-2" />
+              <span>Watch Video</span>
+              <span className={style.promoSoon}>SOON</span>
+            </Button>
+          </div>
+          <div className={style.promoImages}>
+            <img src={Image1} alt="" />
+            <img src={Image2} alt="" />
+          </div>
         </div>
         <div className={style.info}>
           <div>

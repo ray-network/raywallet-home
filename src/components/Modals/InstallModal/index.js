@@ -34,7 +34,7 @@ const InstallModal = () => {
       destroyOnClose
       centered
     >
-      {(modalInstall === "macOS" || modalInstall === "Windows") && (
+      {(modalInstall === "desktop") && (
         <div>
           <p>
             In Chrome, Brave, or Edge Browser, visit the app page and click
@@ -51,7 +51,7 @@ const InstallModal = () => {
             className="ray__btn ray__btn--round w-100"
           >
             <i className="ri ri-wallet me-2" />
-            Visit RayWalet
+            Visit RayWallet
           </a>
         </div>
       )}
@@ -73,7 +73,7 @@ const InstallModal = () => {
             className="ray__btn ray__btn--round w-100"
           >
             <i className="ri ri-wallet me-2" />
-            Visit RayWalet
+            Visit RayWallet
           </a>
         </div>
       )}
@@ -98,7 +98,7 @@ const InstallModal = () => {
             className="ray__btn ray__btn--round w-100"
           >
             <i className="ri ri-wallet me-2" />
-            Visit RayWalet
+            Visit RayWallet
           </a>
         </div>
       )}

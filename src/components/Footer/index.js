@@ -210,58 +210,55 @@ const Footer = () => {
                       </h6>
                     </div>
                     <div className="mb-4">
-                      <div>
-                        <Tooltip title="Web Version">
-                          <a
-                            href="https://raywallet.io/#download"
-                            className={style.footerApp}
-                          >
-                            <i className="ri ri-internet" />
-                          </a>
-                        </Tooltip>
-                        <Tooltip title="Chrome Extension">
-                          <a
-                            href="https://raywallet.io/#download"
-                            className={style.footerApp}
-                          >
-                            <i className="ri ri-chrome" />
-                          </a>
-                        </Tooltip>
-                        <Tooltip title="macOS App">
-                          <a
-                            href="https://raywallet.io/#download"
-                            className={style.footerApp}
-                          >
-                            <i className="ri ri-apple" />
-                          </a>
-                        </Tooltip>
-                        <Tooltip title="Windows App">
-                          <a
-                            href="https://raywallet.io/#download"
-                            className={style.footerApp}
-                          >
-                            <i className="ri ri-category" />
-                          </a>
-                        </Tooltip>
-                      </div>
-                      <div>
-                        <Tooltip title="iOS App">
-                          <a
-                            href="https://raywallet.io/#download"
-                            className={style.footerApp}
-                          >
-                            <i className="ri ri-apple" />
-                          </a>
-                        </Tooltip>
-                        <Tooltip title="Android App">
-                          <a
-                            href="https://raywallet.io/#download"
-                            className={style.footerApp}
-                          >
-                            <i className="ri ri-android" />
-                          </a>
-                        </Tooltip>
-                      </div>
+                      <Tooltip title="Web Version">
+                        <a
+                          href="https://raywallet.io/#download"
+                          className={style.footerApp}
+                        >
+                          <i className="ri ri-internet" />
+                        </a>
+                      </Tooltip>
+                      <Tooltip title="Chrome Extension">
+                        <a
+                          href="https://raywallet.io/#download"
+                          className={style.footerApp}
+                        >
+                          <i className="ri ri-chrome" />
+                        </a>
+                      </Tooltip>
+                      <Tooltip title="macOS App">
+                        <a
+                          href="https://raywallet.io/#download"
+                          className={style.footerApp}
+                        >
+                          <i className="ri ri-apple" />
+                        </a>
+                      </Tooltip>
+                      <Tooltip title="Windows App">
+                        <a
+                          href="https://raywallet.io/#download"
+                          className={style.footerApp}
+                        >
+                          <i className="ri ri-category" />
+                        </a>
+                      </Tooltip>
+                      <br className="d-none d-sm-block" />
+                      <Tooltip title="iOS App">
+                        <a
+                          href="https://raywallet.io/#download"
+                          className={style.footerApp}
+                        >
+                          <i className="ri ri-apple" />
+                        </a>
+                      </Tooltip>
+                      <Tooltip title="Android App">
+                        <a
+                          href="https://raywallet.io/#download"
+                          className={style.footerApp}
+                        >
+                          <i className="ri ri-android" />
+                        </a>
+                      </Tooltip>
                     </div>
                   </div>
                   <div className="col-6 col-sm-12">
@@ -336,6 +333,7 @@ const Footer = () => {
               </a>
             </div>
             <p className="mb-2 text-muted">
+              {new Date().getFullYear()} &copy; Ray Labs DAO | {" "}
               Advanced Ecosystem for Cardano Blockchain Platform.{" "}
               <span>
                 <span>Powered with</span>{" "}
@@ -353,14 +351,15 @@ const Footer = () => {
             </p>
             <p className="mb-2 text-muted">
               <span className="me-2 text-capitalize">
-                Cardano Mainnet Status: Epoch{" "}
+                <span className={style.status} />
+                Cardano Mainnet: Epoch{" "}
                 {networkState?.currentEpoch?.number || 0}, Block{" "}
                 {networkState?.tip?.number || 0}, Slot{" "}
                 {networkState?.tip?.slotNo || 0}
               </span>
             </p>
             <p className="mb-0 text-muted">
-              {new Date().getFullYear()} &copy; Ray Labs DAO
+              
             </p>
           </div>
         </div>
