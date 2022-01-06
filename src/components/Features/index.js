@@ -12,7 +12,7 @@ const items = [
   {
     title: "DeFi & DApps",
     descr:
-      "Integrated DeFi features and native DApps apps in one place. Convenient and easy to use for all levels of users",
+      "Integrated DeFi features and native DApps right in RayWallet. User interface for quick access to the entire Cardano ecosystem",
     icon: "ri ri-code",
   },
   {
