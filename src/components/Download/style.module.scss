@@ -67,7 +67,7 @@
   }
 
   h1 {
-    font-size: rem(56);
+    font-size: rem(48);
     line-height: 1;
     font-weight: 700 !important;
     margin-bottom: rem(25);
@@ -103,15 +103,26 @@
 }
 
 .image {
-  width: rem(400);
+  width: rem(370);
   position: absolute;
   z-index: 1;
   top: rem(200);
   left: 55%;
   box-shadow: $shadow-ant;
-  border-radius: rem(14);
+  border-radius: rem(20);
   overflow: hidden;
   border: rem(8) $white solid;
+  transition: transform .3s ease-in-out, border-color .5s ease-in-out;
+
+  @media (max-width: $sm-max-width) {
+    transform: none !important;
+    border-color: $white !important;
+  }
+
+  &:hover {
+    transform: translateY(-10px);
+    border-color: $dark;
+  }
 
   @media (max-width: $sm-max-width) {
     width: 80%;
@@ -126,15 +137,27 @@
 }
 
 .image2 {
-  width: rem(400);
+  width: rem(370);
   position: absolute;
   z-index: 1;
   top: rem(90);
   left: 62%;
   box-shadow: $shadow-ant;
-  border-radius: rem(14);
+  border-radius: rem(20);
   overflow: hidden;
   border: rem(8) $white solid;
+  transition: transform .3s ease-in-out, border-color .5s ease-in-out;
+
+  @media (max-width: $sm-max-width) {
+    transform: none !important;
+    border-color: $white !important;
+  }
+
+  &:hover {
+    transform: translateY(-10px);
+    border-color: $dark;
+  }
+
 
   @media (max-width: $sm-max-width) {
     position: relative;

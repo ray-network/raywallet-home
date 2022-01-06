@@ -98,7 +98,19 @@
     height: rem(530);
     border-radius: rem(40);
     box-shadow: $shadow-ant;
-    border: 8px solid $white;
+    border: rem(8) solid $white;
+    background: $dark;
+    transition: transform .3s ease-in-out, border-color .5s ease-in-out;
+  
+    @media (max-width: $sm-max-width) {
+      transform: none !important;
+      border-color: $white !important;
+    }
+  
+    &:hover {
+      transform: translateY(-10px);
+      border-color: $dark;
+    }
 
     &:last-child {
       right: 0;

@@ -47,17 +47,19 @@
       position: absolute;
       left: 50%;
       box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);
-      border: 8px solid $dark;
+      border: rem(8) solid $dark;
       border-radius: rem(20);
       background: $dark;
-      transition: transform .3s ease-in-out;
+      transition: transform .3s ease-in-out, border-color .5s ease-in-out;
 
       @media (max-width: $sm-max-width) {
         transform: none !important;
+        border-color: $dark !important;
       }
 
       &:hover {
         transform: translateY(-10px);
+        border-color: $white;
       }
 
       &:nth-child(1) {
