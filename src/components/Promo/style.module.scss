@@ -52,6 +52,10 @@
       background: $dark;
       transition: transform .3s ease-in-out;
 
+      @media (max-width: $sm-max-width) {
+        transform: none !important;
+      }
+
       &:hover {
         transform: translateY(-10px);
       }
