@@ -9,7 +9,7 @@
 .controls {
   float: right;
 
-  button {
+  span {
     border: 1px solid $border;
     background: none;
     border-radius: 100px;
@@ -20,6 +20,7 @@
     align-content: center;
     justify-content: center;
     font-size: rem(16);
+    cursor: pointer;
 
     &:hover {
       border-color: $blue;
@@ -28,11 +29,6 @@
 
     &:first-child {
       margin-right: rem(5);
-      padding-right: rem(9);
-    }
-
-    &:last-child {
-      padding-left: rem(9);
     }
   }
 }

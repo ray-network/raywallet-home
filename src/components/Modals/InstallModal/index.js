@@ -33,7 +33,7 @@ const InstallModal = () => {
       closeIcon={<span className="ri ri-close" />}
       centered
     >
-      {(modalInstall === "desktop") && (
+      {(modalInstall === "Desktop") && (
         <div>
           <p>
             In Chrome, Brave, or Edge Browser, visit the app page and click

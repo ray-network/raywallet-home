@@ -91,6 +91,10 @@
   position: relative;
   min-height: rem(500);
 
+  @media (max-width: $md-max-width) {
+    display: none;
+  }
+
   img {
     position: absolute;
     right: rem(130);
@@ -99,17 +103,18 @@
     border-radius: rem(40);
     box-shadow: $shadow-ant;
     border: rem(8) solid $white;
-    background: $dark;
-    transition: transform .3s ease-in-out, border-color .5s ease-in-out;
-  
+    background: $white;
+    transition: transform 0.3s ease-in-out, border-color 0.5s ease-in-out;
+
     @media (max-width: $sm-max-width) {
       transform: none !important;
       border-color: $white !important;
     }
-  
+
     &:hover {
       transform: translateY(-10px);
       border-color: $dark;
+      background: $dark;
     }
 
     &:last-child {
@@ -183,4 +188,13 @@
       color: $white;
     }
   }
+}
+
+.dot {
+  display: inline-block;
+  height: rem(10);
+  width: rem(10);
+  border-radius: 20px;
+  background: $success;
+  margin-right: rem(7);
 }

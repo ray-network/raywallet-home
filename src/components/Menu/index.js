@@ -38,7 +38,7 @@ const Menu = () => {
             >
               <i className="ri ri-wallet me-2" />
               <span>
-                <span className="d-none d-sm-inline">Open</span> Wallet
+                Open Wallet
               </span>
             </a>
             <span

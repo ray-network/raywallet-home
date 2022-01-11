@@ -35,9 +35,7 @@ const MegaMenu = () => {
                 rel="noopener noreferrer"
               >
                 <i className="ri ri-wallet me-2" />
-                <span>
-                  <span className="d-none d-sm-inline">Open</span> Wallet
-                </span>
+                <span>RayWallet</span>
               </a>
               <span
                 className={style.switchIcon}
@@ -55,7 +53,7 @@ const MegaMenu = () => {
         <div className="mb-5">
           <div>
             <div className="row">
-              <div className="col-12 col-sm-8 mb-3">
+              <div className="col-12 col-md-8 mb-3">
                 <div className={`${style.footerLists} row`}>
                   <div
                     className="col-6 col-sm-4"
@@ -64,37 +62,59 @@ const MegaMenu = () => {
                   >
                     <div className="d-flex mb-4">
                       <h6 className="mb-0">
-                        <strong>Cardano Solutions</strong>
+                        <strong>Information</strong>
                       </h6>
                     </div>
-                    <ul className="list-unstyled mb-4">
+                    <ul className="list-unstyled mb-5">
                       <li>
-                        <a href="https://raywallet.io">RayWallet</a>
+                        <a href="https://raynetwork.io/ecosystem/">Ecosystem</a>
                       </li>
                       <li>
-                        <a href="https://raystake.io">RayStake</a>
+                        <a href="https://raynetwork.io/xray/">XRAY Token</a>
                       </li>
                       <li>
-                        <a href="https://rayswap.io">RaySwap</a>
+                        <a href="https://raynetwork.io/xdiamond/">
+                          XDIAMOND NFT
+                        </a>
                       </li>
                       <li>
-                        <a href="https://raypad.io">RayPad</a>
+                        <a href="https://raynetwork.io/community/">
+                          Developers
+                        </a>
                       </li>
                       <li>
-                        <a href="https://minterr.io">Minterr.io</a>
+                        <a href="https://raynetwork.io/community/">Community</a>
                       </li>
                       <li>
-                        <a href="https://raygraph.io">RayGraph</a>
+                        <a href="https://raynetwork.io/roadmap/">
+                          Roadmap & Updates
+                        </a>
                       </li>
                       <li>
-                        <a href="https://raydata.io">RayData</a>
+                        <a href="https://raynetwork.io/whitepaper/">
+                          Whitepaper
+                        </a>
                       </li>
                       <li>
-                        <a href="https://cardanolist.io">CardanoList.io</a>
+                        <a href="https://raynetwork.io/audit/">Audit</a>
                       </li>
                       <li>
-                        <a href="https://github.com/ray-network/cardano-web3.js">
-                          CardanoWeb3.js
+                        <a href="https://raynetwork.io/about/">About</a>
+                      </li>
+                      <li>
+                        <a href="https://docs.raynetwork.io/">
+                          Documentation <i className="ri ri-arrow_up ri-ext" />
+                        </a>
+                      </li>
+                      <li>
+                        <a href="https://status.raynetwork.io/">
+                          <span className={style.dot} />
+                          Status <i className="ri ri-arrow_up ri-ext" />
+                        </a>
+                      </li>
+                      <li>
+                        <a href="https://raynetwork.io/terms-of-use/">
+                          Terms of Use
                         </a>
                       </li>
                     </ul>
@@ -106,46 +126,69 @@ const MegaMenu = () => {
                   >
                     <div className="d-flex mb-4">
                       <h6 className="mb-0">
-                        <strong>Information</strong>
+                        <strong>Ecosystem</strong>
                       </h6>
                     </div>
-                    <ul className="list-unstyled mb-5">
+                    <ul className="list-unstyled mb-4">
                       <li>
-                        <a href="https://raynetwork.io/xray/">XRAY Token</a>
-                      </li>
-                      <li>
-                        <a href="https://raynetwork.io/xdiamond/">
-                          XDIAMOND NFT
+                        <a href="https://raystart.io">
+                          RayStart <i className="ri ri-arrow_up ri-ext" />
                         </a>
                       </li>
                       <li>
-                        <a href="https://raynetwork.io/roadmap/">
-                          Roadmap & Updates
+                        <a href="https://raywallet.io">
+                          RayWallet <i className="ri ri-arrow_up ri-ext" />
                         </a>
                       </li>
                       <li>
-                        <a href="https://raynetwork.io/wiki/">Wiki</a>
-                      </li>
-                      <li>
-                        <a href="https://status.raynetwork.io/">Status</a>
-                      </li>
-                      <li>
-                        <a href="https://raynetwork.io/about/">About</a>
-                      </li>
-                      <li>
-                        <a href="https://raynetwork.io/whitepaper/">
-                          Whitepaper
+                        <a href="https://raystake.io">
+                          RayStake <i className="ri ri-arrow_up ri-ext" />
                         </a>
                       </li>
                       <li>
-                        <a href="https://docs.raynetwork.io/">Docs</a>
+                        <a href="https://rayswap.io">
+                          RaySwap <i className="ri ri-arrow_up ri-ext" />
+                        </a>
                       </li>
                       <li>
-                        <a href="https://raynetwork.io/audit/">Audit</a>
+                        <a href="https://raypad.io">
+                          RayPad <i className="ri ri-arrow_up ri-ext" />
+                        </a>
                       </li>
                       <li>
-                        <a href="https://raynetwork.io/terms-of-use/">
-                          Terms of Use
+                        <a href="https://raygraph.io">
+                          RayGraph <i className="ri ri-arrow_up ri-ext" />
+                        </a>
+                      </li>
+                      <li>
+                        <a href="https://raydata.io">
+                          RayData <i className="ri ri-arrow_up ri-ext" />
+                        </a>
+                      </li>
+                      <li>
+                        <a href="https://minterr.io">
+                          Minterr.io <i className="ri ri-arrow_up ri-ext" />
+                        </a>
+                      </li>
+                      <li>
+                        <a href="https://cardanolist.io">
+                          CardanoList.io <i className="ri ri-arrow_up ri-ext" />
+                        </a>
+                      </li>
+                      <li>
+                        <a href="https://pigz.io">
+                          Pigz.io Metaverse{" "}
+                          <i className="ri ri-arrow_up ri-ext" />
+                        </a>
+                      </li>
+                      <li>
+                        <a href="https://github.com/ray-network/cardano-web3.js">
+                          CardanoWeb3.js <i className="ri ri-arrow_up ri-ext" />
+                        </a>
+                      </li>
+                      <li>
+                        <a href="https://ray.foundation">
+                          Ray Foundation <i className="ri ri-arrow_up ri-ext" />
                         </a>
                       </li>
                     </ul>
@@ -165,27 +208,31 @@ const MegaMenu = () => {
                         <ul className="list-unstyled mb-5">
                           <li>
                             <a href="https://twitter.com/RayNetwork">
-                              @RayNetwork
+                              @RayNetwork{" "}
+                              <i className="ri ri-arrow_up ri-ext" />
                             </a>
                           </li>
                           <li>
                             <a href="https://twitter.com/RayWallet">
-                              @RayWallet
+                              @RayWallet <i className="ri ri-arrow_up ri-ext" />
                             </a>
                           </li>
                           <li>
                             <a href="https://twitter.com/MinterrApp">
-                              @MinterrApp
+                              @MinterrApp{" "}
+                              <i className="ri ri-arrow_up ri-ext" />
                             </a>
                           </li>
                           <li>
                             <a href="https://twitter.com/CardanoList">
-                              @CardanoList
+                              @CardanoList{" "}
+                              <i className="ri ri-arrow_up ri-ext" />
                             </a>
                           </li>
                           <li>
                             <a href="https://twitter.com/PigzMetaverse">
-                              @PigzMetaverse
+                              @PigzMetaverse{" "}
+                              <i className="ri ri-arrow_up ri-ext" />
                             </a>
                           </li>
                         </ul>
@@ -199,25 +246,31 @@ const MegaMenu = () => {
                         <ul className="list-unstyled mb-4">
                           <li>
                             <a href="https://www.reddit.com/r/RayNetwork">
-                              Reddit
+                              Reddit <i className="ri ri-arrow_up ri-ext" />
                             </a>
                           </li>
                           <li>
-                            <a href="https://t.me/RayNetwork">Telegram Chat</a>
+                            <a href="https://t.me/RayNetwork">
+                              Telegram Chat{" "}
+                              <i className="ri ri-arrow_up ri-ext" />
+                            </a>
                           </li>
                           <li>
                             <a href="https://t.me/RayNetworkChannel">
-                              Telegram
+                              Telegram Announcements{" "}
+                              <i className="ri ri-arrow_up ri-ext" />
                             </a>
                           </li>
                           <li>
                             <a href="https://discord.gg/WhZmm46APN">
-                              Ray Network Discord
+                              Ray Network Discord{" "}
+                              <i className="ri ri-arrow_up ri-ext" />
                             </a>
                           </li>
                           <li>
                             <a href="https://discord.gg/dDVXcthYWn">
-                              Minterr Discord
+                              Minterr.io Discord{" "}
+                              <i className="ri ri-arrow_up ri-ext" />
                             </a>
                           </li>
                         </ul>
@@ -240,7 +293,7 @@ const MegaMenu = () => {
                   <div className="mb-4">
                     <Tooltip title="Web Version">
                       <a
-                        href="https://raywallet.io/#download"
+                        href="https://raywallet.io/"
                         className={style.footerApp}
                       >
                         <i className="ri ri-internet" />
@@ -248,7 +301,7 @@ const MegaMenu = () => {
                     </Tooltip>
                     <Tooltip title="Chrome Extension">
                       <a
-                        href="https://raywallet.io/#download"
+                        href="https://raywallet.io/"
                         className={style.footerApp}
                       >
                         <i className="ri ri-chrome" />
@@ -256,7 +309,7 @@ const MegaMenu = () => {
                     </Tooltip>
                     <Tooltip title="macOS App">
                       <a
-                        href="https://raywallet.io/#download"
+                        href="https://raywallet.io/"
                         className={style.footerApp}
                       >
                         <i className="ri ri-apple" />
@@ -264,7 +317,7 @@ const MegaMenu = () => {
                     </Tooltip>
                     <Tooltip title="Windows App">
                       <a
-                        href="https://raywallet.io/#download"
+                        href="https://raywallet.io/"
                         className={style.footerApp}
                       >
                         <i className="ri ri-category" />
@@ -273,7 +326,7 @@ const MegaMenu = () => {
                     <br className="d-none d-sm-block" />
                     <Tooltip title="iOS App">
                       <a
-                        href="https://raywallet.io/#download"
+                        href="https://raywallet.io/"
                         className={style.footerApp}
                       >
                         <i className="ri ri-apple" />
@@ -281,7 +334,7 @@ const MegaMenu = () => {
                     </Tooltip>
                     <Tooltip title="Android App">
                       <a
-                        href="https://raywallet.io/#download"
+                        href="https://raywallet.io/"
                         className={style.footerApp}
                       >
                         <i className="ri ri-android" />
@@ -299,7 +352,7 @@ const MegaMenu = () => {
                     <div>
                       <Tooltip title="Web Version">
                         <a
-                          href="https://raystake.io/#download"
+                          href="https://raystake.io/"
                           className={style.footerApp}
                         >
                           <i className="ri ri-internet" />
@@ -307,7 +360,7 @@ const MegaMenu = () => {
                       </Tooltip>
                       <Tooltip title="iOS App">
                         <a
-                          href="https://raystake.io/#download"
+                          href="https://raystake.io/"
                           className={style.footerApp}
                         >
                           <i className="ri ri-apple" />
@@ -315,7 +368,7 @@ const MegaMenu = () => {
                       </Tooltip>
                       <Tooltip title="Android App">
                         <a
-                          href="https://raystake.io/#download"
+                          href="https://raystake.io/"
                           className={style.footerApp}
                         >
                           <i className="ri ri-android" />
@@ -338,7 +391,7 @@ const MegaMenu = () => {
               Advanced Ecosystem for Cardano Blockchain Platform
             </p>
             <p className="mb-0 text-muted">
-              {new Date().getFullYear()} &copy; Ray Labs DAO
+              {new Date().getFullYear()} &copy; Ray Foundation DAO
             </p>
           </div>
         </div>

@@ -3,6 +3,9 @@
 .container {
   background: $dark;
   padding: rem(20) 0;
+  position: sticky;
+  z-index: 5;
+  top: 0;
 }
 
 .menu {
@@ -27,15 +30,15 @@
         position: absolute;
         display: none;
         content: "";
-        width: 14px;
-        height: 2px;
+        width: rem(18);
+        height: 3px;
         left: 50%;
         bottom: rem(-7);
-        margin-left: -7px;
+        margin-left: rem(-9);
         background: $white;
       }
 
-      .linkActive,
+      &.linkActive,
       &:hover,
       &:focus {
         color: $gray-3;

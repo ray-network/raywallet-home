@@ -84,12 +84,22 @@ const Features = () => {
     <div className="ray__block">
       <h5 className="ray__title" id="features">
         <div className={style.controls}>
-          <button onClick={() => carousel.current.slidePrev()}>
+          <span
+            onClick={() => carousel.current.slidePrev()}
+            onKeyPress={() => carousel.current.slidePrev()}
+            role="button"
+            tabIndex="0"
+          >
             <i className="ri ri-chevron_backward" />
-          </button>
-          <button onClick={() => carousel.current.slideNext()}>
+          </span>
+          <span
+            onClick={() => carousel.current.slideNext()}
+            onKeyPress={() => carousel.current.slideNext()}
+            role="button"
+            tabIndex="0"
+          >
             <i className="ri ri-chevron_forward" />
-          </button>
+          </span>
         </div>
         DeFi Features & dApps
       </h5>

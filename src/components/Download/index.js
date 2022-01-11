@@ -42,8 +42,8 @@ const Download = () => {
           <p>RayWallet desktop application for use on PCs and Macs</p>
           <span
             className="cursor-pointer ray__btn ray__btn--round ray__btn--transparent mt-auto"
-            onClick={() => handleModal("desktop")}
-            onKeyPress={() => handleModal("desktop")}
+            onClick={() => handleModal("Desktop")}
+            onKeyPress={() => handleModal("Desktop")}
             role="button"
             tabIndex="0"
           >
@@ -83,11 +83,9 @@ const Download = () => {
       <div className={style.ext}>
         <p>Web3 DApp Connector</p>
         <h1>
-          <strong>
-            RayWallet
-            <br />
-            Browser Extension
-          </strong>
+          RayWallet
+          <br />
+          Browser Extension
         </h1>
         <Button className="ray__btn ray__btn--extra ray__btn--round">
           <div>
