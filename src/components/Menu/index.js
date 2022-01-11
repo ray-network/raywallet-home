@@ -37,9 +37,7 @@ const Menu = () => {
               rel="noopener noreferrer"
             >
               <i className="ri ri-wallet me-2" />
-              <span>
-                Open Wallet
-              </span>
+              <span>Open Wallet</span>
             </a>
             <span
               className={style.switchIcon}

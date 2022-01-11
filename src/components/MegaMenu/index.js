@@ -67,39 +67,50 @@ const MegaMenu = () => {
                     </div>
                     <ul className="list-unstyled mb-5">
                       <li>
-                        <a href="https://raynetwork.io/ecosystem/">Ecosystem</a>
+                        <a href="https://raynetwork.io/ecosystem/">
+                          Ecosystem <i className="ri ri-arrow_up ri-ext" />
+                        </a>
                       </li>
                       <li>
-                        <a href="https://raynetwork.io/xray/">XRAY Token</a>
+                        <a href="https://raynetwork.io/xray/">
+                          XRAY Token <i className="ri ri-arrow_up ri-ext" />
+                        </a>
                       </li>
                       <li>
                         <a href="https://raynetwork.io/xdiamond/">
-                          XDIAMOND NFT
+                          XDIAMOND NFT <i className="ri ri-arrow_up ri-ext" />
                         </a>
                       </li>
                       <li>
                         <a href="https://raynetwork.io/community/">
-                          Developers
+                          Developers <i className="ri ri-arrow_up ri-ext" />
                         </a>
                       </li>
                       <li>
-                        <a href="https://raynetwork.io/community/">Community</a>
+                        <a href="https://raynetwork.io/community/">
+                          Community <i className="ri ri-arrow_up ri-ext" />
+                        </a>
                       </li>
                       <li>
                         <a href="https://raynetwork.io/roadmap/">
-                          Roadmap & Updates
+                          Roadmap & Updates{" "}
+                          <i className="ri ri-arrow_up ri-ext" />
                         </a>
                       </li>
                       <li>
                         <a href="https://raynetwork.io/whitepaper/">
-                          Whitepaper
+                          Whitepaper <i className="ri ri-arrow_up ri-ext" />
                         </a>
                       </li>
                       <li>
-                        <a href="https://raynetwork.io/audit/">Audit</a>
+                        <a href="https://raynetwork.io/audit/">
+                          Audit <i className="ri ri-arrow_up ri-ext" />
+                        </a>
                       </li>
                       <li>
-                        <a href="https://raynetwork.io/about/">About</a>
+                        <a href="https://raynetwork.io/about/">
+                          About <i className="ri ri-arrow_up ri-ext" />
+                        </a>
                       </li>
                       <li>
                         <a href="https://docs.raynetwork.io/">
@@ -115,6 +126,7 @@ const MegaMenu = () => {
                       <li>
                         <a href="https://raynetwork.io/terms-of-use/">
                           Terms of Use
+                          <i className="ri ri-arrow_up ri-ext" />
                         </a>
                       </li>
                     </ul>

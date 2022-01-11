@@ -3,8 +3,8 @@ import React from "react"
 import { SVGGithub } from "@/svg"
 import * as style from "./style.module.scss"
 
-import Image1 from './raywallet-desktop.jpg'
-import Image2 from './raywallet-mobile.jpg'
+import Image1 from "./raywallet-desktop.jpg"
+import Image2 from "./raywallet-mobile.jpg"
 
 const Promo = () => {
   return (
@@ -22,8 +22,9 @@ const Promo = () => {
                 RayWallet <span className={style.promoBadge}>v2</span>
               </h1>
               <p>
-                The most functional, lightweight, open-source non-custodial Cardano
-                wallet with unique DeFi features and built-in native DApps
+                The most functional, lightweight, open-source non-custodial
+                Cardano wallet with unique DeFi features and built-in native
+                DApps
               </p>
               <Button className="ray__btn ray__btn--transparentDark ray__btn--round">
                 <i className="ri ri-play_circled me-2" />

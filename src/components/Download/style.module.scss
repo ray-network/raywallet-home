@@ -112,7 +112,7 @@
   border-radius: rem(20);
   overflow: hidden;
   border: rem(8) $white solid;
-  transition: transform .3s ease-in-out, border-color .5s ease-in-out;
+  transition: transform 0.3s ease-in-out, border-color 0.5s ease-in-out;
 
   @media (max-width: $sm-max-width) {
     transform: none !important;
@@ -146,7 +146,7 @@
   border-radius: rem(20);
   overflow: hidden;
   border: rem(8) $white solid;
-  transition: transform .3s ease-in-out, border-color .5s ease-in-out;
+  transition: transform 0.3s ease-in-out, border-color 0.5s ease-in-out;
 
   @media (max-width: $sm-max-width) {
     transform: none !important;
@@ -157,7 +157,6 @@
     transform: translateY(-10px);
     border-color: $dark;
   }
-
 
   @media (max-width: $sm-max-width) {
     position: relative;

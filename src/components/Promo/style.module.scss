@@ -49,7 +49,6 @@
   color: $white;
 
   &Bg {
-
   }
 
   &Inner {
@@ -67,7 +66,7 @@
         font-size: rem(42);
       }
     }
-  
+
     p {
       max-width: rem(550);
       text-align: center;
@@ -79,7 +78,7 @@
     position: absolute;
     bottom: rem(350);
     text-align: center;
-    
+
     img {
       position: absolute;
       left: 50%;
@@ -87,7 +86,7 @@
       border: rem(8) solid $dark;
       border-radius: rem(20);
       background: $dark;
-      transition: transform .3s ease-in-out, border-color .5s ease-in-out;
+      transition: transform 0.3s ease-in-out, border-color 0.5s ease-in-out;
 
       @media (max-width: $sm-max-width) {
         transform: none !important;
@@ -118,7 +117,7 @@
           margin-left: rem(-400);
           width: rem(800);
         }
-  
+
         &:last-child {
           margin-left: rem(30);
           width: rem(300);

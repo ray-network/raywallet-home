@@ -33,7 +33,7 @@ const InstallModal = () => {
       closeIcon={<span className="ri ri-close" />}
       centered
     >
-      {(modalInstall === "Desktop") && (
+      {modalInstall === "Desktop" && (
         <div>
           <p>
             In Chrome, Brave, or Edge Browser, visit the app page and click
@@ -79,8 +79,8 @@ const InstallModal = () => {
       {modalInstall === "Android" && (
         <div>
           <p>
-            In Chrome Browser, visit the app page and click settings icon on the right
-            side of the address bar:
+            In Chrome Browser, visit the app page and click settings icon on the
+            right side of the address bar:
           </p>
           <p className="text-center">
             <img src={ImagePWAAndroid1} className={style.image} alt="" />
