@@ -62,7 +62,7 @@ const MegaMenu = () => {
                   >
                     <div className="d-flex mb-4">
                       <h6 className="mb-0">
-                        <strong>Information</strong>
+                        <strong>Resources</strong>
                       </h6>
                     </div>
                     <ul className="list-unstyled mb-5">
@@ -113,8 +113,9 @@ const MegaMenu = () => {
                         </a>
                       </li>
                       <li>
-                        <a href="https://docs.raynetwork.io/">
-                          Documentation <i className="ri ri-arrow_up ri-ext" />
+                        <a href="https://raynetwork.io/terms-of-use/">
+                          Terms of Use
+                          <i className="ri ri-arrow_up ri-ext" />
                         </a>
                       </li>
                       <li>
@@ -124,9 +125,13 @@ const MegaMenu = () => {
                         </a>
                       </li>
                       <li>
-                        <a href="https://raynetwork.io/terms-of-use/">
-                          Terms of Use
-                          <i className="ri ri-arrow_up ri-ext" />
+                        <a href="https://docs.raynetwork.io/">
+                          Documentation <i className="ri ri-arrow_up ri-ext" />
+                        </a>
+                      </li>
+                      <li>
+                        <a href="https://github.com/ray-network/">
+                          GitHub <i className="ri ri-arrow_up ri-ext" />
                         </a>
                       </li>
                     </ul>
